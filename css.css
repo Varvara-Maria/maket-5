@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+}
+
+a,  i{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin: 0;
+    text-decoration: none;
+}
+
+.main {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background: -webkit-linear-gradient(45deg, rgb(132, 123, 2) 58%, rgb(11, 44, 25) 48%);
+    background: -moz-linear-gradient(45deg, rgb(132, 123, 2) 58%, rgb(11, 44, 25) 48%);
+    background: linear-gradient(45deg, rgb(132, 123, 2) 58%, rgb(11, 44, 25) 48%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__left, .header__right {
+    margin-top: 50px;
+    display: flex;
+}
+
+.lines {
+    cursor: pointer;
+    display: block;
+    margin: 0 20px;
+    margin-top: 3px;
+}
+
+.line {
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.logo {
+    font-size: 25px;
+    margin-top: -10px;
+
+}
+
+.header__right{
+    margin-right: 65px;
+}
+
+.menu__element {
+    margin-left: 40px;
+}
+
+.main__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.main__left {
+    display: flex;
+}
+
+.main__left__intro {
+    margin-left: 50px;
+}
+
+.scrolling {
+    font-size: 7px;
+    transform: rotate(90deg);
+    margin: -59px 0 50px -20px;
+}
+
+.scrolling .fas {
+    margin-top: 150px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.623);
+    cursor: pointer;
+}
+
+.scrolling .middle {
+    font-size: 11px;
+    color: rgba(255, 255, 255);
+}
+
+.fa-circle {
+    margin-bottom: -300px;
+}
+
+.question {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+}
+
+.answer {
+    font-family: 'Kalam', cursive;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.add__text {
+    font-family: 'Kalam', cursive;
+    font-size: 28px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 60px;
+}
+
+.order {
+    color: rgb(90, 88, 88);
+    padding: 7px 40px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.specials {
+    color: rgb(255, 255, 255);
+    padding: 7px 40px;
+    font-weight: 500;
+    border: solid white;
+    border-radius: 30px;
+
+}
+
+.main__center {
+    width: 40%;
+    margin-left: -100px;
+}
+
+.main__right {
+    display: flex;
+    transform: rotate(-90deg);
+    margin-bottom: 170px;
+    
+}
+
+.main__right .fas, .fab{
+    transform: rotate(90deg);
+    margin-right: 20px;
+    color: #000;
+    padding: 6px;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
